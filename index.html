@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fighting Game</title>
+    <link rel="icon" href="assets/Fight.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kalam&family=Merienda:wght@500&family=Pixelify+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div id="player1">
+        <h1 class="play1">Player 1</h1>
+        <img src="assets/kims.gif" alt="kim" /><br /><br />
+        <p id="attack1">A: &nbsp;<button id="atkbtn1">Attack</button><br /></p>
+        <p id="heal1">H:&nbsp; &nbsp; <button id="hlbtn1">Heal</button></p>
+        <h1 id="score1">100</h1>
+      </div>
+      <div id="player2">
+        <h1 class="play2">Player 2</h1>
+        <img
+          src="assets/Ryo.gif"
+          alt="Ryo"
+          height="280px"
+          width="260px"
+        /><br /><br />
+        <p id="attack2">S: &nbsp;<button id="atkbtn2">Attack</button><br /></p>
+        <p id="heal2">P:&nbsp; &nbsp; <button id="hlbtn2">Heal</button></p>
+        <h1 id="score2">100</h1>
+      </div>
+      <br />
+    </div>
+    <div class="random">
+      <h1 id="winner"></h1>
+    </div>
+    <div class="random">
+      <button id="random">Random Winner</button>
+    </div>
+    <br />
+    <div class="reset">
+      <button id="reset">Reset</button>
+    </div>
+    <br />
+    <audio id="punch" src="assets/Punch Sound.mp3" type="mp3"></audio>
+    <audio id="punch1" src="assets/punch1.mp3" type="mp3"></audio>
+    <audio id="increase" src="assets/increase.mp3" type="mp3"></audio>
+    <audio id="won" src="assets/won.mp3" type="mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

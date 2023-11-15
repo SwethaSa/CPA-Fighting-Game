@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: aliceblue;
+  font-family: Pixelify Sans;
+}
+.main {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#attack1,
+#heal1 {
+  margin-left: 90px;
+}
+
+#attack2,
+#heal2 {
+  margin-left: 80px;
+}
+
+#atkbtn1,
+#atkbtn2 {
+  background-color: crimson;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 2cm;
+  border-radius: 30px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: Pixelify Sans;
+  width: 90px;
+}
+
+#hlbtn1,
+#hlbtn2 {
+  background-color: gold;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 2cm;
+  border-radius: 30px;
+  font-size: larger;
+  font-family: Pixelify Sans;
+  font-weight: bolder;
+}
+
+.reset,
+.random {
+  display: flex;
+  justify-content: center;
+}
+
+#reset,
+#random {
+  padding: 10px;
+  width: 3cm;
+  border-radius: 20px;
+  font-size: larger;
+  font-family: Pixelify Sans;
+  background-color: lime;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+}
+
+#random {
+  width: 5cm;
+  background-color: deeppink;
+}
